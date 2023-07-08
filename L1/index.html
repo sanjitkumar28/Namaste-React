@@ -8,6 +8,28 @@
 </head>
 
 <body>
+    <div id="root">
+        <!-- <h2>FrontEndFrameworks</h2>
+        <ul>
+            <li>React JS</li>
+            <li>Angular</li>
+            <li>Vue</li>
+        </ul> -->
+    </div>
+    <script>
+        const heading2=document.createElement("h2");
+        heading2.innerHTML="Frontend framework"
+        const unorderdList=document.createElement("ul");
+        const listitem1=document.createElement("li");
+        listitem1.innerHTML="React JS";
+        const listitem2=document.createElement("li");
+        listitem2.innerHTML="Angular";
+        const listitem3=document.createElement("li");
+        listitem3.innerHTML="Vue";
+        unorderdList.append(listitem1,listitem2,listitem3);
+        const root=document.getElementById("root");
+        root.append(heading2,unorderdList);
+    </script>
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 </body>
