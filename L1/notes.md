@@ -3,4 +3,6 @@
 
 2. The React element is just a JavaScript object that describes the DOM element in memory. During the rendering process, React converts the React element to the actual DOM element.
 
-3.  ReactDOM is the middleman that renders the React element in the browser
+3.  ReactDOM is the middleman that renders the React element in the browser.
+
+4. Call createRoot to create a React root for displaying content inside a browser DOM element.
