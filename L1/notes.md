@@ -5,4 +5,6 @@
 
 3.  ReactDOM is the middleman that renders the React element in the browser.
 
-4. Call createRoot to create a React root for displaying content inside a browser DOM element.
+4. Call createRoot to create a React root for displaying content inside a browser DOM element.|
+
+5. if we render more than 1 element in root.render it will update the code with the last child that is being rendered
