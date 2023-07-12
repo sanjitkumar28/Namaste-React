@@ -17,4 +17,15 @@ because we want to update our HTML using JS.
 10. Name of component always start with Capital Letter. Not mandatory but good practice.
 Function component is normal function that is returning some JSX,react element.
 11.  Components are independent and reusable bits of code.
-12.   
+12.   what is difference between react element and react component?
+ root.render(heading);
+ root.render(<Heading/>)
+
+ 13. We can put any JS inside our functional Component within {} curly braces.
+ 14. If we want to use component inside  component then it is know as component composition(composing component).
+
+15. const element = <div>
+  <h1>Hello!</h1>
+  <h2>Good to see you here.</h2>
+</div>
+we can have multi line elements in the variable.
